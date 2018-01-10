@@ -1,0 +1,35 @@
+body{
+  background-color: #5a5c9b;
+  font-family: Arial;
+}
+header{
+  background-color: #15163a;
+  height: 30px;
+  margin: -10px -10px -10px -10px;
+}
+.main{
+  color: white;
+  background-color: #15163a;
+  padding-bottom: 20px;
+  margin: -25px -10px 0px -10px;
+  border-bottom: 50px solid #5a5c9b;
+  border-left: 50px solid #5a5c9b;
+  border-right: 50px solid #5a5c9b;
+  text-align: center
+}
+.main p{
+  width: 560px;
+  padding-top: 80px;
+  margin: auto;
+}
+form h2{
+  padding-bottom: 30px;
+}
+#submit{
+  background-color: #cec348;
+  border-top: white 2px solid;
+  border-bottom: #cec348 2px solid;
+  border-left: white 2px solid;
+  border-right: #cec348 2px solid;
+  padding: 15px 15px 15px 15px;
+}
