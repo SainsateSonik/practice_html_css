@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="login_page.html" class="navbar-brand">Welcome</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="coffee_lover_project.html">Landing Page</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="jumbotron" style="width:60%; margin:auto;">
+        <h1>Log In</h1>
+        <small>Enter your email and password bellow to log in to Coffee lover</small>
+      </div>
+      <br>
+      <form action="https://www.google.com" style="width:60%; margin:auto;">
+        <div class="form-group">
+          <label for="email_id">Email address</label>
+          <input class="form-control" id="email_id" type="email" name="email_id" value="">
+        </div>
+        <div class="form-group">
+          <label for="pass">Password</label>
+          <input class="form-control" type="password" id="pass" name="password" value="">
+        </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="" value=""> Keep me Logged In
+          </label>
+        </div>
+        <button class="btn btn-default" type="button" name="button">Submit</button>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
